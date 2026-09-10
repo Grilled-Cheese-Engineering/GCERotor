@@ -2,8 +2,14 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "55056726-a9c7-49b5-9273-96b9655e7425")
+	(uuid "1a40e0fa-eb15-43b0-a1b1-70263884f02a")
 	(paper "A4")
+	(title_block
+		(date "2026-09-06")
+		(rev "0.1.0")
+		(comment 1 "Main HAT PCB Designed by Josh Carlson")
+		(comment 2 "Motor Driver by Lucas Moidel")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -1229,6 +1235,41 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 81.28 39.37)
+		(end 251.46 127)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ded06802-52a6-4a7f-87a1-a13c78311c1d")
+	)
+	(text "12v to 5v Power Regulator"
+		(exclude_from_sim no)
+		(at 109.22 46.482 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+			)
+		)
+		(uuid "2d6b9c02-5f68-476b-a562-fdf98013f4ad")
+	)
+	(text "Parts:\n- U2: LM1085IT-5.0/NOPB\n- C6-7: 50YXJ10M5X11\n- C8: CL21B104KBCNNNC\n- R7: CR1206-FX-1001ELF\n- D1: LTST-C150KRKT"
+		(exclude_from_sim no)
+		(at 212.09 94.488 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "314881db-10b3-4357-abed-b67d056ba6e2")
+	)
 	(junction
 		(at 162.56 92.71)
 		(diameter 0)
@@ -1251,7 +1292,7 @@
 		(at 130.81 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d5698661-f3f3-49e9-96f0-d652707c17dc")
+		(uuid "9fc05e48-5e92-412b-865d-117f02431f32")
 	)
 	(junction
 		(at 162.56 80.01)
@@ -1381,7 +1422,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 80.01) (xy 130.81 80.01)
+			(xy 93.98 80.01) (xy 130.81 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1431,7 +1472,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 106.68 80.01 90)
+		(at 93.98 80.01 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1442,7 +1483,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a36cdaa-6ff0-4a95-bd05-d376f634186a")
 		(property "Reference" "#PWR015"
-			(at 110.49 80.01 0)
+			(at 97.79 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1453,7 +1494,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 102.87 80.0099 90)
+			(at 90.17 80.0099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1464,7 +1505,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 80.01 0)
+			(at 93.98 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1475,7 +1516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 80.01 0)
+			(at 93.98 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1486,7 +1527,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 106.68 80.01 0)
+			(at 93.98 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1564,6 +1605,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 185.42 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 185.42 68.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1654,6 +1706,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 198.12 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "DigiKey"
 			(at 198.12 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -1815,6 +1878,28 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 130.81 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 130.81 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ID" "50YXJ10M5X11"
 			(at 130.81 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2064,6 +2149,17 @@
 				)
 			)
 		)
+		(property "Supplier" "DigiKey"
+			(at 175.26 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "36787cd2-2894-4f17-92b1-aacb7f5f6a1c")
 		)
@@ -2146,6 +2242,28 @@
 				)
 			)
 		)
+		(property "Supplier" "DigiKey"
+			(at 162.56 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ID" "50YXJ10M5X11"
+			(at 162.56 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "078bc974-4f38-4465-a872-3cc1500d3532")
 		)
@@ -2217,6 +2335,28 @@
 			)
 		)
 		(property "Description" "3A 25V Linear Regulator, Fixed Output 5.0V, TO-220/TO-263"
+			(at 147.32 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 147.32 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ID" "LM1085IT-5.0/NOPB-ND"
 			(at 147.32 80.01 0)
 			(hide yes)
 			(show_name no)

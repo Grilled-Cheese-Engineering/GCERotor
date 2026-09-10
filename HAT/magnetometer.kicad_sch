@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "116ff585-6271-403f-8413-7416bd5d6b47")
 	(paper "A4")
+	(title_block
+		(date "2026-09-06")
+		(rev "0.1.0")
+		(comment 1 "Main HAT PCB Designed by Josh Carlson")
+		(comment 2 "Motor Driver by Lucas Moidel")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -1360,6 +1366,41 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 39.37 33.02)
+		(end 273.05 160.02)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "dbb2db17-ff88-4f15-ae5b-4bc716f45212")
+	)
+	(text "Parts:\n- BNO055: BNO055\n- C1: CC0805KRX7R9BB124\n- C2: CL21F105ZBFNNNG\n- C3: CL21B104KBCNNNC\n- C4-5: CL21C220JBANNNC\n- R1-2: RMCF1206FT10K0\n- R3-4: RMCF1206ZT0R00\n- Y1: AB38T-32.768KHZ"
+		(exclude_from_sim no)
+		(at 193.04 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e25903a0-85bd-4b55-b8bc-293f4bdb7e4a")
+	)
+	(text "12v to 5v Power Regulator"
+		(exclude_from_sim no)
+		(at 67.31 40.132 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+			)
+		)
+		(uuid "e80e092e-79bd-428e-bb8b-dff2a068700b")
+	)
 	(junction
 		(at 116.84 59.69)
 		(diameter 0)
@@ -2138,6 +2179,17 @@
 				)
 			)
 		)
+		(property "Supplier" "DigiKey"
+			(at 92.71 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e7699113-86f1-44b7-9670-363f7f1dade1")
 		)
@@ -2212,6 +2264,28 @@
 			)
 		)
 		(property "Description" "Intelligent 9-axis absolute orientation sensor, LGA-28"
+			(at 114.3 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 114.3 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ID" "BNO055"
 			(at 114.3 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2457,6 +2531,17 @@
 				)
 			)
 		)
+		(property "Supplier" "DigiKey"
+			(at 68.58 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "223daec3-eb35-46b4-9d75-4d9d58c73e8e")
 		)
@@ -2692,6 +2777,17 @@
 				)
 			)
 		)
+		(property "Supplier" "DigiKey"
+			(at 170.18 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c53ae99b-9eee-4ca4-b4b1-7965a798e6dd")
 		)
@@ -2765,6 +2861,17 @@
 		)
 		(property "Description" "Two pin crystal"
 			(at 154.94 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 154.94 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2853,6 +2960,17 @@
 				)
 			)
 		)
+		(property "Supplier" "DigiKey"
+			(at 92.71 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cbf9b623-4cc2-4391-ae06-83dc6f464041")
 		)
@@ -2923,6 +3041,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 107.95 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 107.95 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3012,6 +3141,17 @@
 				)
 			)
 		)
+		(property "Supplier" "DigiKey"
+			(at 132.08 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4f724912-6416-43d9-b356-f3ec642869f2")
 		)
@@ -3082,6 +3222,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 140.97 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 140.97 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3170,6 +3321,17 @@
 				)
 			)
 		)
+		(property "Supplier" "DigiKey"
+			(at 68.58 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aa48fa2e-f85b-42df-afb4-6bd3ee649b58")
 		)
@@ -3240,6 +3402,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 170.18 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 170.18 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
